@@ -1,0 +1,662 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .slider{
+    width: 1920px;
+    height: 1280px;
+    background-color: #222533;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .slider .text{
+    color: white;
+    text-transform: uppercase;
+    
+    text-align: center;
+    width: 1383px;
+    height: 264.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+main .slider .text h3{
+    font-size: 30px;
+    font-family: 'Lato';
+    letter-spacing: 14px
+}
+main .slider .text h3 span{
+    color: #1ABC9C;
+}
+
+main .slider .text h1{
+    font-size: 60px;
+    font-family: 'Lato';
+    font-weight: black;
+    letter-spacing: 5px;
+}
+
+main .slider .text h4{
+    font-size: 30px;
+    font-weight: light;
+    font-family: 'Lato';
+    letter-spacing: 3px;
+}
+
+main .slider .text .button{
+    width: 420px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 38.5px
+}
+
+main .slider .text .button .b1{
+    width: 200px;
+    height: 60px;
+    color: #FFF;
+    font-weight: black;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-size: 18px;
+    background: #222533;
+    border: #FFFFFF 2px solid;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+main .slider .text .button .b1:hover{
+    background: #1ABC9C;
+    border: 0;
+}
+
+main .slider .text .button .b2{
+    width: 200px;
+    height: 60px;
+    color: #FFF;
+    font-weight: black;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-size: 18px;
+    background: #222533;
+    border: #FFFFFF 2px solid;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-right: 10px;
+    text-align: center;
+}
+
+main .slider .text .button .b2:hover{
+    background: #1ABC9C;
+    border: 0;
+}
+
+main .pag{
+    width: 86px;
+    height: 14px;
+    display: grid;
+    margin-top: 40px;
+    grid-gap: 10px;
+    grid-auto-flow: column;
+}
+
+main .pag > div{
+    width: 14px;
+    height: 14px;
+    border:  #DDDDDD 1px solid;
+    background: transparent;
+    border-radius: 14px/14px;
+}
+
+main .navigation{
+    width: 1920px;
+    height: 90px;
+    display: flex;
+}
+
+main .navigation .logo{
+    font-family: 'Lato';
+    font-size: 35.69px;
+    width: 154.09px;
+    height: 48.5px;
+    margin-left: 375px;
+    margin-right: 155.7px;
+    margin-top: 19.5px;
+}
+
+main .navigation nav {
+    width: 788px;
+    height: 18px;
+    word-spacing: 40px;
+    margin-top: 34.7px;
+}
+
+main .navigation nav a{
+    font-family: 'Lato';
+    font-size: 15px;
+    color: #A1B1BC;
+    text-decoration: none;
+}
+
+main .navigation nav a:hover{
+    color: #1ABC9C;
+}
+
+main .intro{
+    width: 1170px;
+    height: 390.44px;
+    margin-left: 386px;
+    margin-top: 29.5px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 30px;
+}
+
+main .intro div .solid{
+    border: #DBE7EF 1px solid;
+    width: 270px;
+    height: 210px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+main .intro div .solid > h3{
+    text-transform: capitalize;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: bold;
+    color: #2C3E50;
+}
+
+main .intro div .solid > p{
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+    margin-top: 12.5px;
+    width: 187.89px;
+    height: 275.12px;
+    margin-left: 41.5px;
+    
+}
+
+main .info{
+    width: 1920px;
+    height: 500px;
+    background: #ECF0F1;
+   
+}
+
+main .info  h1{
+    font-family: 'Lato';
+    font-size: 36px;
+    color: #2C3E50;
+    margin-left: 374.6px;
+    margin-top: 88.1px;
+}
+
+main .info  .para{
+    width: 570px;
+    float:left;
+}
+
+main .info  .para p{
+    font-family: 'Lato';
+    font-size: 14px;
+    color: #A1B1BC;
+    width: 570px;
+    line-height: 24px;
+    margin-left: 375px;
+    margin-top: 16.8px;
+}
+
+main .info .bt{
+    margin-top: 0.7px;
+    width: 173.68px;
+    height: 50px;
+}
+
+main .info .bt button{
+    margin-left: 374px;
+    width: 173.68px;
+    height: 50px;
+    border: #E5E5E5 1px solid;
+    background: #FFF;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 40px;
+    font-family: 'Lato';
+    color: #34495E;
+    text-shadow: #FFFFFF;
+    text-transform: uppercase;
+}
+
+main .info .bt button:hover{
+    background: #1ABC9C;
+    color: #FFF;
+}
+
+main .info .img{
+    width: 543px;
+    height: 275px;
+    float: right;
+    margin-right: 369px;
+}
+
+main .cap{
+    width: 1920px;
+    height: 715.42px;
+    background: #2E3241;
+    justify-content: center;
+}
+
+main .cap .title{
+    margin: 85.9px auto 0;
+    width: 630.7px;
+    height: 203.61px;
+    text-align: center;
+}
+
+main .cap .title h1{
+    font-family: 'Lato';
+    font-size: 36px;
+    line-height: 20px;
+    color: #FFF;
+    margin-bottom: 14.4px;
+}
+
+main .cap .title p{
+    width: 630.7px;
+    height: 141.24px;
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFF;
+}
+
+main .cap .proc1, .proc2, .proc3, .proc4{
+    width: 270.32px;
+    height: 465.42px;
+    float:left;
+}
+
+main .cap .proc1{
+    margin-left: 374px;
+    margin-right: 29.7px;
+}
+
+main .cap .proc2, .proc3{
+    margin-right: 29.7px;
+    margin-left: 29.7px;
+}
+
+main .cap .proc1 .perc{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px/200px;
+    margin-top: 0;
+    margin-left: 35px;
+    background: #1ABC9C;
+    display: grid;
+}
+
+main .cap .proc1 .perc .el2{
+    border-radius: 188.06px/188.06px;
+    background: #FFFFFF;
+    width: 188.06px;
+    height: 188.06px;
+    margin: 6px;
+    display: grid;
+}
+
+main .cap .proc1 .perc .el2 .el3{
+    width: 104.48px;
+    height: 104.48px;
+    border-radius: 104.48px/104.48px;
+    background: #ECF0F1;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'Lato';
+    color: #4E4E4E;
+    text-align: center;
+    margin: 41.8px;
+    display: grid;
+    align-items: center;
+}
+
+main .cap .text{
+    width: 270.32px;
+    height: 239.06px;   
+}
+
+main .cap .text h3{
+    font-family: 'Lato';
+    width: 88px;
+    height: 22px;
+    font-size: 18px;
+    line-height: 40px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 0 auto;
+
+}
+
+main .cap .text p{
+    width: 262.32px;
+    height: 200.57px;
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 16.5px;
+    text-align: center;
+}
+
+main .cap .proc2 .perc{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px/200px;
+    margin-top: 0;
+    margin-left: 35px;
+    background: #21C2F8;
+    display: grid;
+}
+
+main .cap .proc2 .perc .el2{
+    border-radius: 188.06px/188.06px;
+    background: #FFFFFF;
+    width: 188.06px;
+    height: 188.06px;
+    margin: 6px;
+    display: grid;
+}
+
+main .cap .proc2 .perc .el2 .el3{
+    width: 104.48px;
+    height: 104.48px;
+    border-radius: 104.48px/104.48px;
+    background: #2C3E50;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'Lato';
+    color: #FFFFFF;
+    text-align: center;
+    margin: 41.8px;
+    display: grid;
+    align-items: center;
+}
+
+main .cap .proc3 .perc{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px/200px;
+    margin-top: 0;
+    margin-left: 35px;
+    background: #1ABC9C;
+    display: grid;
+}
+
+main .cap .proc3 .perc .el2{
+    border-radius: 188.06px/188.06px;
+    background: #FFFFFF;
+    width: 188.06px;
+    height: 188.06px;
+    margin: 6px;
+    display: grid;
+}
+
+main .cap .proc3 .perc .el2 .el3{
+    width: 104.48px;
+    height: 104.48px;
+    border-radius: 104.48px/104.48px;
+    background: #ECF0F1;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'Lato';
+    color: #4E4E4E;
+    text-align: center;
+    margin: 41.8px;
+    display: grid;
+    align-items: center;
+}
+
+main .cap .proc4 .perc{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px/200px;
+    margin-top: 0;
+    margin-left: 35px;
+    background: #1ABC9C;
+    display: grid;
+}
+
+main .cap .proc4 .perc .el2{
+    border-radius: 188.06px/188.06px;
+    background: #FFFFFF;
+    width: 188.06px;
+    height: 188.06px;
+    margin: 6px;
+    display: grid;
+}
+
+main .cap .proc4 .perc .el2 .el3{
+    width: 104.48px;
+    height: 104.48px;
+    border-radius: 104.48px/104.48px;
+    background: #ECF0F1;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'Lato';
+    color: #4E4E4E;
+    text-align: center;
+    margin: 41.8px;
+    display: grid;
+    align-items: center;
+}
+
+main .services{
+    width: 1920px;
+    height: 539.58px;
+}
+
+main .services .title{
+    margin: 0 auto;
+    width: 630.7px;
+    height: 144.77px;
+    text-align: center;
+}
+
+main .services .title h2{
+    width: 199px;
+    height: 48px;
+    margin-left: 219px;
+    margin-top: 17px;
+    font-family: 'Lato';
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 36px;
+    color: #2C3E50;
+    
+}
+
+main .services .title p{
+    width: 630.7px;
+    height: 82.4px;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: #A1B1BC;
+    line-height: 24px;
+    margin-top: 14.4px;
+    text-transform: capitalize;
+}
+
+main .services .vec{
+    width: 480px;
+    height: 381.27px;
+    float: left;
+}
+
+main .services .vec > h3{
+    width: 134px;
+    height: 22px;
+    font-family: 'Lato';
+    font-size: 18px;
+    line-height: 24px;
+    color: #2C3E50;
+    margin-left: 179.4px;
+    text-transform: capitalize
+}
+
+main .services .vec > p{
+    width: 339.58px;
+    height: 195.08px;
+    margin-left: 70.5px;
+    margin-top: 17.4px;
+    font-family:'Lato';
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #A1B1BC;
+}
+
+main .testimonials{
+    width: 1921px;
+    height: 711px;
+    background: #ECF0F1;
+}
+
+main .testimonials .title{
+    width: 630.7px;
+    height: 144.76px;
+    margin-top: 86.9px;
+    margin-left: 644.3px;
+    text-align: center;
+}
+
+main .testimonials .title h1{
+    font-family: 'Lato Light';
+    font-size: 36px;
+    margin-bottom: 14.4px;
+    line-height: 20px;
+    color: #2C3E50;
+    text-align: center;
+}
+
+main .testimonials .title p{
+    width: 630.7px;
+    height: 82.4px;
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+}
+
+main .testimonials .test{
+    width: 1170px; 
+    height: 158px;
+    margin-top: 27.3px;
+    margin-left: 364px;  
+}
+
+main .testimonials .test .backg{
+    display: grid;
+    width: 1170px;
+    height: 158px;
+}
+
+main .testimonials .test .backg .rec{
+    width: 1170px;
+    height: 150px;
+    border: 1px #E7EBEE solid;
+}
+
+main .testimonials .test .backg .tr{
+    width: 25.99px;
+    height: 8px;
+    border-bottom: 0px;
+    border: 1px #E7EBEE solid;
+    margin-left: 572px;
+}
+
+main .testimonials .test .backg .rec p{
+    width: 1112.13px;
+    height: 75.5px;
+    font-family: 'Lato';
+    font-size: 18px;
+    line-height: 30px;
+    color: #A1B1BC;
+    text-align: center;
+}
+
+main .testimonials .user{
+    width: 112px;
+    height: 172.63px;
+    margin-top: 22px;
+    margin-left: 894px;
+    border: 1px #E6EBED solid;
+}
+
+main .testimonials .user .img{
+    width: 112px;
+    height: 112px;
+    border: 1px #E6EBED solid;
+}
+
+main .testimonials .user .img .el{
+    width: 112px;
+    height: 112px;
+    border: 1px #E6EBED solid;
+    border-radius: 112px/112px;
+    display: grid;
+}
+
+main .testimonials .user .img .el .avatar{
+    width: 100px;
+    height: 100px;
+    border: 1px #707070 solid;
+    border-radius: 100px/100px;
+    background: #A1B1BC;
+    margin: 6.5px
+}
+
+main .testimonials .user .info {
+    font-size: 18px;
+    font-family: 'Lato';
+    font-weight: bold;
+    line-height: 24px;
+    color: #2C3E50;
+    width: 111px;
+    height: 45px;
+}
+
+main .testimonials .user .info span{
+    font-size: 14px;
+    font-family: 'Lato';
+    line-height: 24px;
+    color: #A1B1BC;
+    font-weight: normal;
+}
+
+main .testimonials .user .pag{
+    margin-top: 53.4px;
+    margin-left: 13px;
+}
