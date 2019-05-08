@@ -49,15 +49,13 @@ main .slider .text h3 span{
 
 main .slider .text h1{
     font-size: 60px;
-    font-family: 'Lato';
-    font-weight: black;
+    font-family: 'Lato Black';
     letter-spacing: 5px;
 }
 
 main .slider .text h4{
     font-size: 30px;
-    font-weight: light;
-    font-family: 'Lato';
+    font-family: 'Lato Light';
     letter-spacing: 3px;
 }
 
@@ -75,7 +73,7 @@ main .slider .text .button .b1{
     color: #FFF;
     font-weight: black;
     text-transform: uppercase;
-    font-family: 'Lato';
+    font-family: 'Lato Black';
     font-size: 18px;
     background: #222533;
     border: #FFFFFF 2px solid;
@@ -93,9 +91,8 @@ main .slider .text .button .b2{
     width: 200px;
     height: 60px;
     color: #FFF;
-    font-weight: black;
     text-transform: uppercase;
-    font-family: 'Lato';
+    font-family: 'Lato Black';
     font-size: 18px;
     background: #222533;
     border: #FFFFFF 2px solid;
@@ -164,7 +161,7 @@ main .navigation nav a:hover{
 main .intro{
     width: 1170px;
     height: 390.44px;
-    margin-left: 386px;
+    margin-left: 0px;
     margin-top: 29.5px;
     display: grid;
     grid-auto-flow: column;
@@ -207,7 +204,7 @@ main .info{
 }
 
 main .info  h1{
-    font-family: 'Lato';
+    font-family: 'Lato Light';
     font-size: 36px;
     color: #2C3E50;
     margin-left: 374.6px;
@@ -244,7 +241,7 @@ main .info .bt button{
     border-radius: 4px;
     font-size: 16px;
     line-height: 40px;
-    font-family: 'Lato';
+    font-family: 'Lato Black';
     color: #34495E;
     text-shadow: #FFFFFF;
     text-transform: uppercase;
